@@ -1,0 +1,1226 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conte",
+				"context"
+			],
+			[
+				"TEMP",
+				"TEMPLATE_DIRS"
+			],
+			[
+				"Mo",
+				"ModelAdmin"
+			],
+			[
+				"sec",
+				"secretary_readonly_fields\tstatement"
+			],
+			[
+				"for",
+				"ForeignKey"
+			],
+			[
+				"main",
+				"main_location"
+			],
+			[
+				"loca",
+				"location\tstatement"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"Me",
+				"MemberForm\tclass"
+			],
+			[
+				"Model",
+				"ModelForm\tModelForm"
+			],
+			[
+				"chil",
+				"children_quantity"
+			],
+			[
+				"list_disp",
+				"list_display_links\tstatement"
+			],
+			[
+				"ad",
+				"admin\timport"
+			],
+			[
+				"mo",
+				"model"
+			],
+			[
+				"Memb",
+				"MemberResource\tclass"
+			],
+			[
+				"Mem",
+				"MemberResource\tclass"
+			],
+			[
+				"adm",
+				"admin"
+			],
+			[
+				"memb",
+				"member_link\tfunction"
+			],
+			[
+				"dele",
+				"delete"
+			],
+			[
+				"po",
+				"position_id"
+			],
+			[
+				"position_",
+				"position_id"
+			],
+			[
+				"get",
+				"get_employee_level\tfunction"
+			],
+			[
+				"posi",
+				"position_level"
+			],
+			[
+				"emp",
+				"employee_level\tstatement"
+			],
+			[
+				"Hous",
+				"HouseMaterial\tclass"
+			],
+			[
+				"HOus",
+				"HouseMaterialFloor\tclass"
+			],
+			[
+				"Hou",
+				"HouseMaterialCeilling\tclass"
+			],
+			[
+				"Ho",
+				"HouseMaterialCeilling\tclass"
+			],
+			[
+				"flo",
+				"floor\tstatement"
+			],
+			[
+				"house",
+				"house_part"
+			],
+			[
+				"mem",
+				"member_name\tstatement"
+			],
+			[
+				"For",
+				"ForeignKey\tclass"
+			],
+			[
+				"prop",
+				"property_type"
+			],
+			[
+				"uni",
+				"unique\tparam"
+			],
+			[
+				"time",
+				"timezone\tmodule"
+			],
+			[
+				"date",
+				"datetime\tmodule"
+			],
+			[
+				"commo",
+				"commons"
+			],
+			[
+				"sup",
+				"suppliers"
+			],
+			[
+				"ico",
+				"icon-user"
+			],
+			[
+				"member",
+				"members"
+			],
+			[
+				"wo",
+				"work\tstatement"
+			],
+			[
+				"phon",
+				"phone_type\tstatement"
+			],
+			[
+				"pho",
+				"phone_type\tstatement"
+			],
+			[
+				"person",
+				"person_type"
+			],
+			[
+				"cou",
+				"count_default\tstatement"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"per",
+				"person_name_id"
+			],
+			[
+				"phone",
+				"phone_number"
+			],
+			[
+				"Perso",
+				"PersonPhone\tclass"
+			],
+			[
+				"to",
+				"today\tfunction"
+			],
+			[
+				"chi",
+				"children_quantity\tfunction"
+			],
+			[
+				"Posi",
+				"PostionLevel\tclass"
+			],
+			[
+				"empl",
+				"employee_level"
+			],
+			[
+				"Emplo",
+				"EmployeeLevel\tclass"
+			],
+			[
+				"Fo",
+				"ForeignKey\tclass"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"Pero",
+				"PersonPhoneInline\tclass"
+			],
+			[
+				"list",
+				"list_filter"
+			],
+			[
+				"supp",
+				"supplier_type"
+			],
+			[
+				"dis",
+				"disabilities"
+			],
+			[
+				"cli",
+				"clinics"
+			],
+			[
+				"Def",
+				"default"
+			],
+			[
+				"lis",
+				"list_display"
+			],
+			[
+				"Sup",
+				"SupplierType\tclass"
+			],
+			[
+				"Person",
+				"PersonType"
+			],
+			[
+				"Empl",
+				"Employee\tclass"
+			],
+			[
+				"sui",
+				"suit-tab-general"
+			],
+			[
+				"suit",
+				"suit_classes"
+			],
+			[
+				"Pho",
+				"PhoneType\tclass"
+			],
+			[
+				"Per",
+				"PersonPhoneInline\tclass"
+			],
+			[
+				"icon",
+				"icon-home"
+			],
+			[
+				"Membe",
+				"MemberManager\tclass"
+			],
+			[
+				"Employee",
+				"EmployeeManager\tclass"
+			],
+			[
+				"me",
+				"member_family\tstatement"
+			],
+			[
+				"Emp",
+				"EmployeeManager"
+			],
+			[
+				"Su",
+				"SupplierManager\tclass"
+			],
+			[
+				"Doc",
+				"DoctorManager\tclass"
+			],
+			[
+				"Supp",
+				"SupplierContact\tclass"
+			],
+			[
+				"hiri",
+				"hiring_date"
+			],
+			[
+				"hi",
+				"hiring_date"
+			],
+			[
+				"de",
+				"department"
+			],
+			[
+				"Wo",
+				"WorkSchedule\tclass"
+			],
+			[
+				"Em",
+				"EmployeeAdditionalField\tclass"
+			],
+			[
+				"fre",
+				"frecuency_unit\tstatement"
+			],
+			[
+				"fr",
+				"frecuency\tstatement"
+			],
+			[
+				"obje",
+				"objects"
+			],
+			[
+				"M",
+				"ModelAdmin\tclass"
+			],
+			[
+				"doc",
+				"doctors\tmodule"
+			],
+			[
+				"Kin",
+				"Kinsman\tclass"
+			],
+			[
+				"addr",
+				"Address"
+			],
+			[
+				"cla",
+				"calculate_age"
+			],
+			[
+				"ord",
+				"ordering"
+			],
+			[
+				"rever",
+				"reverse_lazy\tfunction"
+			],
+			[
+				"in",
+				"include\tfunction"
+			],
+			[
+				"hous",
+				"house_material\tstatement"
+			],
+			[
+				"ho",
+				"house_part\tstatement"
+			],
+			[
+				"he",
+				"help_text"
+			],
+			[
+				"Sta",
+				"StackedInline"
+			],
+			[
+				"pro",
+				"property_type\tstatement"
+			],
+			[
+				"cna",
+				"cane_number\tstatement"
+			],
+			[
+				"Ki",
+				"MemberKinsman\tclass"
+			],
+			[
+				"D",
+				"DoctorPhones\tclass"
+			],
+			[
+				"Docum",
+				"DocumentType\tclass"
+			],
+			[
+				"spe",
+				"speciality_name"
+			],
+			[
+				"special",
+				"speciality_name\tstatement"
+			],
+			[
+				"chai",
+				"chained_model_field"
+			],
+			[
+				"abs",
+				"absolute_import\tstatement"
+			],
+			[
+				"Ad",
+				"AddressType\tclass"
+			],
+			[
+				"H",
+				"HouseMaterial\tclass"
+			],
+			[
+				"P",
+				"Phone\tclass"
+			],
+			[
+				"HOu",
+				"HousePart\tclass"
+			],
+			[
+				"Ph",
+				"PhoneType\tclass"
+			],
+			[
+				"db_talb",
+				"db_table"
+			],
+			[
+				"db_ta",
+				"db_table"
+			],
+			[
+				"db",
+				"db_table"
+			],
+			[
+				"comm",
+				"commons\tmodule"
+			],
+			[
+				"mod",
+				"models\tmodule"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"nu",
+				"num_palabras\tstatement"
+			],
+			[
+				"formulario",
+				"formulario-contactos"
+			],
+			[
+				"form",
+				"forms\tmodule"
+			],
+			[
+				"re",
+				"request\tparam"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"ma",
+				"mail\tmodule"
+			],
+			[
+				"co",
+				"core\tmodule"
+			],
+			[
+				"con",
+				"contactos\timport"
+			],
+			[
+				"formi",
+				"formulario_buscar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/products/models.py",
+			"settings":
+			{
+				"buffer_size": 2874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/django_mobile_shop/views.py",
+			"settings":
+			{
+				"buffer_size": 161,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 11591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 1155,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/django_mobile_shop/settings.py",
+			"settings":
+			{
+				"buffer_size": 4263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/django_mobile_shop/urls.py",
+			"settings":
+			{
+				"buffer_size": 1595,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/static_in_pro",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/static_in_pro/our_static",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/static_in_env",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/static_in_env/static_root"
+	],
+	"file_history":
+	[
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/django_mobile_shop/settings.py",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/people/models.py",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/README.md",
+		"/home/flonux/.config/sublime-text-3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/templates/about.html",
+		"/home/flonux/Dropbox/DjangoExamples/trydjango18/src/templates/400.html",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop_01/src/people/models.py",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop_01/src/products/models.py",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/people/admin.py",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/django_mobile_shop.sublime-project",
+		"/home/flonux/Desktop/Django_Reloaded/django_mobile_shop/src/requirements.txt",
+		"/home/flonux/Dropbox/django_projects/iris/iris.sublime-project",
+		"/home/flonux/Dropbox/django_projects/iris/iris/members/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/members/models.py",
+		"/home/flonux/Downloads/GC_TEMP_FRAUDES",
+		"/home/flonux/Downloads/GESTIMP_CORTE_09",
+		"/home/flonux/Dropbox/django_projects/iris/iris/suppliers/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/doctors/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/suppliers/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/doctors/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/people/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/members/forms.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/people/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/location/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/location/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/reports/urls.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/iris/urls.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/reports/views.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/employees/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/iris/settings.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/employees/admin.py",
+		"/home/flonux/Dropbox/HomeBank/Prueba1.xhb",
+		"/home/flonux/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/flonux/Downloads/RE%3a Error Faux1003 al 20100705.eml",
+		"/home/flonux/Downloads/Facturacion.html",
+		"/home/flonux/Dropbox/django_projects/iris/.gitignore",
+		"/home/flonux/Dropbox/django_projects/iris/iris/housing/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/commons/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/housing/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/templates/admin/base_site.html",
+		"/home/flonux/.virtualenvs/iris/local/lib/python2.7/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/home/flonux/Dropbox/django_projects/iris/Update Content_type in auth_permission.sql",
+		"/home/flonux/Dropbox/django_projects/iris/iris/commons/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/appointments/admin.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/appointments/models.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/location/migrations/0001_initial.py",
+		"/home/flonux/Downloads/Lecturas.html",
+		"/home/flonux/Desktop/prueba.html",
+		"/home/flonux/Dropbox/django_projects/iris/iris/members/migrations/0001_initial.py",
+		"/home/flonux/Dropbox/django_projects/iris/iris/common/models.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/contactos/forms.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/contactos/templates/formulario-contactos.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/contactos/templates/formulario-contactos_old.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/contactos/views.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/misitio/settings.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/misitio/urls.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/templates/bienvenido.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/biblioteca/templates/resultados.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/biblioteca/templates/formulario_buscar.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/biblioteca/templates/buscar.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/templates/mostrar_navegador.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/templates/atributos.html",
+		"/home/flonux/Dropbox/django_projects/misitio/src/misitio/views.py",
+		"/home/flonux/Dropbox/django_projects/misitio/src/biblioteca/views.py",
+		"/home/flonux/Desktop/misitio/src/biblioteca/migrations/0001_initial.py",
+		"/home/flonux/Desktop/misitio/src/biblioteca.sql",
+		"/home/flonux/Desktop/misitio/src/misitio/views.py",
+		"/home/flonux/Desktop/misitio/src/templates/horas_adelante.html",
+		"/home/flonux/Desktop/misitio/src/templates/pie_pagina.html",
+		"/home/flonux/Desktop/misitio/src/templates/cabecera_pagina.html",
+		"/home/flonux/Desktop/misitio/src/templates/base.html",
+		"/home/flonux/Dropbox/django_projects/trydjango18/src/templates/head_css.html",
+		"/home/flonux/Desktop/misitio/src/templates/fecha_actual.html",
+		"/home/flonux/Desktop/misitio/src/templates/fecha_futura.html",
+		"/home/flonux/Desktop/misitio/misitio/templates/fecha_actual.html",
+		"/home/flonux/Desktop/misitio/misitio/misitio/views.py",
+		"/home/flonux/Desktop/misitio/misitio/misitio/urls.py",
+		"/home/flonux/Desktop/misitio/misitio/misitio/settings.py",
+		"/home/flonux/Downloads/Plantillas_para_la_carga-migración_de_histórico_de_RRHH/list.txt",
+		"/home/flonux/Desktop/wagtail/mysite/mysite/urls.py",
+		"/home/flonux/Desktop/wagtail/mysite/mysite/settings/base.py",
+		"/home/flonux/Desktop/wagtail/mysite/requirements.txt",
+		"/home/flonux/Desktop/qblog/src/templates/home.html",
+		"/home/flonux/Desktop/qblog/src/templates/base.html",
+		"/home/flonux/Desktop/qblog/src/qblog/urls.py",
+		"/home/flonux/Desktop/qblog/src/blog/views.py",
+		"/home/flonux/Desktop/qblog/src/qblog/settings.py",
+		"/home/flonux/Desktop/qblog/src/blog/admin.py",
+		"/home/flonux/Desktop/qblog/src/blog/models.py",
+		"/home/flonux/Desktop/qblog/src/blog/urls.py",
+		"/home/flonux/Downloads/EduSec4.2.5/README.txt",
+		"/home/flonux/Desktop/mysite/mysite/polls/models.py",
+		"/home/flonux/Desktop/mysite/mysite/polls/admin.py",
+		"/home/flonux/Desktop/mysite/mysite/mysite/settings.py",
+		"/home/flonux/.config/sublime-text-3/Packages/Django Manage Commands/DjangoCommands.sublime-settings",
+		"/home/flonux/.config/sublime-text-3/Packages/DjangoCommands/Default.sublime-keymap",
+		"/home/flonux/Desktop/mysite/mysite/templates/admin/base_site.html",
+		"/home/flonux/Desktop/mysite/mysite/templates/base_site.html",
+		"/home/flonux/Desktop/django101/django101/django101/settings.py",
+		"/home/flonux/Desktop/django101/src/django101/settings.py",
+		"/home/flonux/Desktop/django101/src/localizacion/models.py",
+		"/home/flonux/Desktop/django101/src/clientes/models.py",
+		"/home/flonux/Desktop/django101/src/django101/urls.py",
+		"/home/flonux/Desktop/django101/src/clientes/admin.py",
+		"/home/flonux/Desktop/django101/src/localizacion/admin.py",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/templates/base.html",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/templates/home.html",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/newsletter/models.py",
+		"/home/flonux/intalar mongodb.txt",
+		"/home/flonux/Desktop/Django 101 (Tabla de Contenido).txt",
+		"/home/flonux/Desktop/Clean and good code.txt",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/newsletter/forms.py",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/newsletter/views.py",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/templates/forms.html",
+		"/home/flonux/Dropbox/djcode/trydjango18/src/trydjango18.sublime-project"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"==",
+			"8488813",
+			"ignored_list",
+			"not_readonly_list",
+			")",
+			"(",
+			"address",
+			"birth_day",
+			"birthday",
+			"edad",
+			"help_text",
+			"age",
+			"get",
+			"age",
+			"quantity",
+			"children_quantity",
+			"special",
+			"specali",
+			"occu",
+			"doc",
+			"addres",
+			"Discapacidad",
+			"clinic",
+			"veritical",
+			"veritcas",
+			"disabilities",
+			"year",
+			"prescription",
+			"ActivePersonManager",
+			"ActivePerson",
+			"MemberResource",
+			"ModelResource",
+			"member",
+			"user_link",
+			"member",
+			"(",
+			"localizacion",
+			"province",
+			"town",
+			"location",
+			"CREATE",
+			"MemberFamily",
+			"editable",
+			"Ceilling",
+			"num",
+			"no",
+			"appointment_date",
+			"date",
+			"',\n",
+			"Phone",
+			"phone",
+			"Phone",
+			"phone",
+			"obj",
+			"Employee",
+			"employee_level",
+			"EmployeeModelForm",
+			"employee",
+			"foo",
+			"EmployeeForm",
+			"horizontal",
+			"Clinic",
+			"additionalsfields",
+			"get",
+			"id",
+			"get",
+			"employee_",
+			"Employee ",
+			"'names',\n        'father_last_name',\n        'mother_last_name',",
+			"'names',\n                'father_last_name',\n                'mother_last_name',",
+			"Member ",
+			"obj",
+			"Person",
+			"PersonPhoneInlines",
+			"MemberForm",
+			"MemberAdditionalForm",
+			"()",
+			"woman",
+			"commons",
+			"TEMPLATE_CONTEXT_PROCESSORS",
+			" ",
+			",",
+			")",
+			"(",
+			"'",
+			"',",
+			"AdminImageMixin",
+			"Company",
+			"Supplier",
+			"SupplierContactAdditionalField",
+			"Supplier",
+			"Member",
+			"EmployeeFamily",
+			"Kinsman",
+			"Employee",
+			"parent_of",
+			"obj",
+			"birth_day",
+			"department",
+			"position",
+			", ",
+			"Doctor",
+			"created",
+			"born",
+			"members",
+			"Housing",
+			"phone_type",
+			"kinship",
+			"disability",
+			" ",
+			"True",
+			"DocumentType, null=True",
+			", null=True",
+			"DocumentType, null=True",
+			", null=True",
+			"phone_ptr",
+			", ",
+			"Editor",
+			"media",
+			"fedena_ultimate",
+			"`",
+			"`fedena_ultimate`.",
+			"T0GDYJ7MM",
+			"provincia",
+			"municipio",
+			"provincia",
+			"region",
+			".site"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"birthday",
+			"\n(",
+			"bts_employee"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/products/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/django_mobile_shop/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11562,
+								11562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/django_mobile_shop/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/django_mobile_shop/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.395198744366,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 212.0
+	},
+	"pinned_build_system": "",
+	"project": "django_mobile_shop.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/django_projects/emilioferreyra_landing/eflp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
