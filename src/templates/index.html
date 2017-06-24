@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load thumbnail %}
 
 {% block head_title %}{{title}}{% endblock %}
 
@@ -18,7 +19,7 @@
 
             {% include "carousel.html" %}   
 
-            {% include "offers.html" %}
+            {% include "offers_new.html" %}
         </div>
 
     </div>

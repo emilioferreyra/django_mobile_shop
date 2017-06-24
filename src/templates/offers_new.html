@@ -1,0 +1,33 @@
+{% load staticfiles %}
+{% load thumbnail %}
+
+<div class="row">
+    {% for instance in offers %}
+        
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                {# <img src="http://placehold.it/320x150" alt=""> #}
+
+                {% thumbnail instance.picture "320x150" crop="center" as im %}
+                <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                {% endthumbnail %}
+
+                <div class="caption">
+                    <h4 class="pull-right">${{ instance.price }}</h4>
+                    <h4><a href="#">{{ instance.product }}</a>
+                    </h4>
+                    <p>{{instance.comment}}</p>
+                </div>
+                <div class="ratings">
+                    <p class="pull-right">{{instance.reviews}} reviews</p>
+                    <p>
+                    {% for i in loop_times %}
+                        <span class="glyphicon glyphicon-star"></span>
+                    {% endfor %}
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
