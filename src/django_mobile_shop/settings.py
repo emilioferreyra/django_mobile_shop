@@ -134,11 +134,13 @@ STATICFILES_DIRS = (
     # '/var/www/static/',
 )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 MEDIA_URL = '/media/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-JET_SIDE_MENU_COMPACT = True
+
+JET_SIDE_MENU_COMPACT = False
 
 JET_THEMES = [
     {

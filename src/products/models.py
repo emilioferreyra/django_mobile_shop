@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 from sorl.thumbnail import ImageField
 from model_utils.models import TimeStampedModel
@@ -106,3 +107,31 @@ class ProductPicture(models.Model):
     get_image_tag.short_description = 'Photo'
     get_image_tag.allow_tags = True
     # get_image_tag.admin_order_field = 'name'
+
+
+class Offer(models.Model):
+    product = models.ForeignKey(Product)
+    start_date = models.DateTimeField()
+    end_date = models.DateTimeField()
+    price = models.DecimalField(max_digits=5, decimal_places=2)
+    reviews = models.PositiveIntegerField(null=True)
+    stars = models.PositiveSmallIntegerField(null=True)
+    comment = models.TextField(max_length=200, null=True)
+    active = models.BooleanField(default=True)
+    picture = ImageField(upload_to='product_pictures', null=True, blank=True)
+
+    class Meta:
+        verbose_name = "Offer"
+        verbose_name_plural = "Offers"
+
+    def __str__(self):
+        return str(self.product)
+
+    def get_image_tag(self):
+        if self.picture:
+            return u'<img src="%s" width="60" height="75" />'\
+                % self.picture.url
+        else:
+            return ' '
+    get_image_tag.short_description = 'Photo'
+    get_image_tag.allow_tags = True

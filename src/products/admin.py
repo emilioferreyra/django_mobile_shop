@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from sorl.thumbnail.admin import AdminImageMixin
 
-from .models import Make, Model, ProductType, Product, ProductPicture
+from .models import Make, Model, ProductType, Product, ProductPicture, Offer
 
 
 @admin.register(Make)
@@ -41,3 +41,19 @@ class ProductAdmin(admin.ModelAdmin):
         ('product_type', admin.RelatedOnlyFieldListFilter),
     )
     inlines = [ProductPictureInline]
+
+
+@admin.register(Offer)
+class OfferAdmin(AdminImageMixin, admin.ModelAdmin):
+    list_display = [
+        'get_image_tag',
+        'product',
+        'start_date',
+        'end_date',
+        'price',
+        'active'
+    ]
+
+    list_display_links = ['get_image_tag', 'product']
+
+    list_editable = ['active']

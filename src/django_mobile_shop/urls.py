@@ -16,9 +16,9 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
-from django.core.urlresolvers import reverse_lazy
-from django.views.generic.base import RedirectView
-from .views import home
+# from django.core.urlresolvers import reverse_lazy
+# from django.views.generic.base import RedirectView
+from .views import home, about, services, contact
 
 
 urlpatterns = [
@@ -28,6 +28,9 @@ urlpatterns = [
     #     permanent=False)
     #     ),
     url(r'^$', home, name='home'),
+    url(r'^about/', about, name='about'),
+    url(r'^services/', services, name='services'),
+    url(r'^contact/', contact, name='contact'),
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     url(r'^admin/', include(admin.site.urls)),
