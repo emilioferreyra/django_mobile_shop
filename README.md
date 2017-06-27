@@ -1,17 +1,18 @@
 # Django Mobile Shop
-DMS es un proyecto de ejemplo para fines puramente educativos, implementado en la charla "Django Reloaded" con el objetivo de dar a conocer las virtudes del framework web más popular dentro del mundo Python. 
+**DMS** es un proyecto de ejemplo para fines puramente educativos, implementado en la charla **"Django Reloaded"** con el objetivo de dar a conocer las virtudes del framework web más popular dentro del mundo Python. 
 
 
-## Instalación.
-
-**Requerimeintos:**  
+#### Requerimeintos para la instalación:  
 
 - Python 3.
 - Virtualenv.
 - Instalador de paquetes pip.
 
+## Instalación:
+
+
 1. Descargar el archivo zip desde GitHub.
-2. Descoprimir el archivo y usando la consola nos dirigimos al directorio raiz.
+2. Descoprimir el archivo y usando la consola nos movemos al directorio raiz.
 
 ```
 $ cd django_mobile_shop
@@ -61,6 +62,8 @@ $ python manage.py runserver
 **User:** admin
 
 **Password:** djangoadmin123
+
+
 
 Lista de personas:
 ![persons_list](https://github.com/emilioferreyra/django_mobile_shop/blob/master/docs/screenshots/person_list.png?raw=true)
