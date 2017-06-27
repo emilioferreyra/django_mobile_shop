@@ -4,7 +4,7 @@ DMS es un proyecto de ejemplo para fines puramente educativos, implementado en l
 
 ## Instalación.
 
-** Requerimeintos:**  
+**Requerimeintos:**  
 
 - Python 3.
 - Virtualenv.
@@ -13,38 +13,54 @@ DMS es un proyecto de ejemplo para fines puramente educativos, implementado en l
 1. Descargar el archivo zip desde GitHub.
 2. Descoprimir el archivo y usando la consola nos dirigimos al directorio raiz.
 
-	$ cd django_mobile_shop
+```
+$ cd django_mobile_shop
+```
 
 3. Se procede a virtualizar el ambiente de trabajo usando virtualenv (también se puede usar virtualenvwrapper):
 
-	$ virtualenv
+```
+$ virtualenv
+```
 
 4. Activar el ambiente virtual:
 
-	$ source bin/activate
+```
+$ source bin/activate
+```
 
 5. Instalar las librerias usando pip y el archivo de requerimientos (requeriments.txt):
 
-	$ pip install -r requeriments.txt
+```
+$ pip install -r requeriments.txt
+```
 
 6. Entramos al directorio src y ejecutar el comando que activa el servidor de desarrollo:
 
-	$ cd src
-	$ python manage.py runserver
+```
+$ cd src
+```
+
+```
+$ python manage.py runserver
+```
 
 7. En una pestaña del navegador escrimibos la siguiente dirección:
 
-	http://127.0.0.1:8000/
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 ![home](https://github.com/emilioferreyra/django_mobile_shop/blob/master/docs/screenshots/dms_home.png?raw=true)
 
 
+
+
 **Nota:** para tener acceso al sitio de administración:
 
-	http://127.0.0.1:8000/admin
+[http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
-User: admin
-Password: djangoadmin123
+**User:** admin
+
+**Password:** djangoadmin123
 
 Lista de personas:
 ![persons_list](https://github.com/emilioferreyra/django_mobile_shop/blob/master/docs/screenshots/person_list.png?raw=true)
@@ -55,6 +71,8 @@ Lista de productos:
 
 Algunas imágenes más [aquí](https://github.com/emilioferreyra/django_mobile_shop/tree/master/docs/screenshots)
 
+
+---
 ## Recursos
 
 ### Iniciando con Python
@@ -72,27 +90,27 @@ Tutorial oficial de Django [Django Project - Tutorial](https://docs.djangoprojec
 
 ### Manejadores de contenido CMS
 
-- [Mezzanine](http://mezzanine.jupo.org/)
-- [Wagtail](https://wagtail.io/)
-- [Django CMS](https://www.django-cms.org)
+* [Mezzanine](http://mezzanine.jupo.org/)
+* [Wagtail](https://wagtail.io/)
+* [Django CMS](https://www.django-cms.org)
 
 ### Plantillas para el site admin.
 
-- [Django Suit](http://djangosuit.com/)
-- [Grappelli](http://grappelliproject.com/)
-- [Django Jet](http://jet.geex-arts.com/)
+* [Django Suit](http://djangosuit.com/)
+* [Grappelli](http://grappelliproject.com/)
+* [Django Jet](http://jet.geex-arts.com/)
 
 ### Plantillas de proyectos.
 
-- [Caktus Django Project Template](https://github.com/caktus/django-project-template)
-- [Edge](https://github.com/arocks/edge)
-- [Pydanny Django Cookiecutter](https://github.com/pydanny/cookiecutter-django)
+* [Caktus Django Project Template](https://github.com/caktus/django-project-template)
+* [Edge](https://github.com/arocks/edge)
+* [Pydanny Django Cookiecutter](https://github.com/pydanny/cookiecutter-django)
 
 ### Comercio electrónico (e-commerce).
 
--[Orcar](http://oscarcommerce.com/)
+* [Orcar](http://oscarcommerce.com/)
 
 ### Otros
 
-- [Django Packages](https://djangopackages.org/)
+* [Django Packages](https://djangopackages.org/)
 
