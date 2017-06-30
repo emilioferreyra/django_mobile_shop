@@ -5,14 +5,25 @@ from sorl.thumbnail.admin import AdminImageMixin
 from .models import Make, Model, ProductType, Product, ProductPicture, Offer
 
 
+class ModelInlines(admin.StackedInline):
+    model = Model
+    min_num = 1
+    extra = 0
+
+
 @admin.register(Make)
 class MakeAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['name', 'model']
+    search_fields = ['name', 'model__name']
+    list_filter = ('model',)
+    inlines = [ModelInlines]
 
 
 @admin.register(Model)
 class ModelAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['name', 'make']
+    list_filter = ['make']
+    search_fields = ['name']
 
 
 @admin.register(ProductType)
@@ -35,6 +46,8 @@ class ProductAdmin(admin.ModelAdmin):
         'product_name',
         'product_type',
     )
+    list_display_links = ['product_main_picture', 'product_name']
+
     list_filter = (
         ('make', admin.RelatedOnlyFieldListFilter),
         ('model', admin.RelatedOnlyFieldListFilter),
