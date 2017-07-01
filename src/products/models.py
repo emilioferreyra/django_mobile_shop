@@ -53,16 +53,11 @@ class ProductFeature(models.Model):
 
 
 class Product(TimeStampedModel, AuthStampedModel):
-    # serial_number = models.CharField(unique=True, max_length=50)
     make = models.ForeignKey(Make)
-    # model = models.ForeignKey(Model)
     model = ChainedForeignKey(
         Model,
         chained_field="make",
         chained_model_field="make",
-        # show_all=False,
-        # auto_choose=True,
-        # sort=True
     )
 
     product_type = models.ForeignKey(ProductType, default=1)
@@ -70,6 +65,7 @@ class Product(TimeStampedModel, AuthStampedModel):
     class Meta:
         verbose_name = "Product"
         verbose_name_plural = "Products"
+        unique_together = (('make', 'model'),)
 
     def __str__(self):
         return '%s %s' % (self.make, self.model)
