@@ -31,9 +31,11 @@ urlpatterns = [
     url(r'^about/', about, name='about'),
     url(r'^services/', services, name='services'),
     url(r'^contact/', contact, name='contact'),
+    url(r'^chaining/', include('smart_selects.urls')),  # Django smart-selects
     url(r'^jet/', include('jet.urls', 'jet')),  # Django JET URLS
     url(r'^jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),
     url(r'^admin/', include(admin.site.urls)),
+
     url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {
         'document_root': settings.MEDIA_ROOT
     }),

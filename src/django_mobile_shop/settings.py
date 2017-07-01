@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'localflavor',
     'django_extensions',
     'import_export',
+    'smart_selects',
     # My apps
     'people',
     'products',
@@ -139,6 +140,10 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+# USE_DJANGO_JQUERY = False
+
+# SMART_SELECTS_JQUERY_URL = True
+
 
 JET_SIDE_MENU_COMPACT = False
 
@@ -174,3 +179,6 @@ JET_THEMES = [
         'title': 'Light Gray'
     }
 ]
+
+
+JQUERY_URL = False

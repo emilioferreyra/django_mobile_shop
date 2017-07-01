@@ -1,9 +1,10 @@
 from django.db import models
-from django.core.validators import MaxValueValidator, MinValueValidator
+# from django.core.validators import MaxValueValidator, MinValueValidator
 
 from sorl.thumbnail import ImageField
 from model_utils.models import TimeStampedModel
 from audit_log.models import AuthStampedModel
+from smart_selects.db_fields import ChainedForeignKey
 
 
 class ProductType(models.Model):
@@ -54,7 +55,16 @@ class ProductFeature(models.Model):
 class Product(TimeStampedModel, AuthStampedModel):
     # serial_number = models.CharField(unique=True, max_length=50)
     make = models.ForeignKey(Make)
-    model = models.ForeignKey(Model)
+    # model = models.ForeignKey(Model)
+    model = ChainedForeignKey(
+        Model,
+        chained_field="make",
+        chained_model_field="make",
+        # show_all=False,
+        # auto_choose=True,
+        # sort=True
+    )
+
     product_type = models.ForeignKey(ProductType, default=1)
 
     class Meta:
