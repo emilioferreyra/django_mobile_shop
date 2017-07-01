@@ -40,7 +40,6 @@ class ProductPictureInline(AdminImageMixin, admin.TabularInline):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    # pass
     list_display = (
         'product_main_picture',
         'product_name',
@@ -53,6 +52,7 @@ class ProductAdmin(admin.ModelAdmin):
         ('model', admin.RelatedOnlyFieldListFilter),
         ('product_type', admin.RelatedOnlyFieldListFilter),
     )
+    search_fields = ['make__name', 'model__name']
     inlines = [ProductPictureInline]
 
 
