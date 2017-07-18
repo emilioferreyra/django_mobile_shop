@@ -1,5 +1,5 @@
 # Django Mobile Shop
-**DMS** es un proyecto de ejemplo para fines puramente educativos, implementado en la charla **"Django Reloaded"** con el objetivo de dar a conocer las virtudes del framework web más popular dentro del mundo Python. 
+**DMS** es un proyecto de ejemplo para fines puramente educativos, implementado en la charla **"Django Reloaded"** con el objetivo de dar a conocer las virtudes del framework web más popular dentro del mundo Python.
 
 
 #### Requerimeintos para la instalación:  
@@ -116,4 +116,3 @@ Tutorial oficial de Django [Django Project - Tutorial](https://docs.djangoprojec
 ### Otros
 
 * [Django Packages](https://djangopackages.org/)
-
