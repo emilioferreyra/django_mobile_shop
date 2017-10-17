@@ -23,22 +23,32 @@
                     <p>
                     {% if instance.rating > 0 %}
                         <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                        {% else %}
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     {% endif %}
 
                     {% if instance.rating > 1 %}
                         <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                        {% else %}
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     {% endif %}
 
                     {% if instance.rating > 2 %}
                         <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                        {% else %}
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     {% endif %}
 
                     {% if instance.rating > 3 %}
                         <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                        {% else %}
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     {% endif %}
 
                     {% if instance.rating > 4 %}
                         <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                        {% else %}
+                        <span class="glyphicon glyphicon-star-empty"></span>
                     {% endif %}
 
                     </p>
