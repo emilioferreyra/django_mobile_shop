@@ -18,7 +18,9 @@ from django.conf import settings
 from django.conf.urls.static import static
 # from django.core.urlresolvers import reverse_lazy
 # from django.views.generic.base import RedirectView
-from .views import home, about, services, contact
+from .views import (
+    about, services, contact, Home
+)
 
 
 urlpatterns = [
@@ -27,7 +29,8 @@ urlpatterns = [
     #     url=reverse_lazy('admin:index'),
     #     permanent=False)
     #     ),
-    url(r'^$', home, name='home'),
+    # url(r'^$', home, name='home'),
+    url(r'^$', Home.as_view(), name='home'),
     url(r'^about/', about, name='about'),
     url(r'^services/', services, name='services'),
     url(r'^contact/', contact, name='contact'),

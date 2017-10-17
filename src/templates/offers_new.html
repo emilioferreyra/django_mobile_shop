@@ -21,10 +21,26 @@
                 <div class="ratings">
                     <p class="pull-right">{{instance.reviews}} reviews</p>
                     <p>
-                    {% for i in loop_times %}
-                        <span class="glyphicon glyphicon-star"></span>
-                    {% endfor %}
-                        
+                    {% if instance.rating > 0 %}
+                        <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                    {% endif %}
+
+                    {% if instance.rating > 1 %}
+                        <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                    {% endif %}
+
+                    {% if instance.rating > 2 %}
+                        <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                    {% endif %}
+
+                    {% if instance.rating > 3 %}
+                        <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                    {% endif %}
+
+                    {% if instance.rating > 4 %}
+                        <span class="glyphicon glyphicon-star" style="color:darkorange"></span>
+                    {% endif %}
+
                     </p>
                 </div>
             </div>

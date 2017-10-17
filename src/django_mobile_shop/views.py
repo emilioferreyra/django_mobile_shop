@@ -1,17 +1,43 @@
 from django.shortcuts import render
+from django.http import HttpResponse
+from django.views.generic import View
 from products.models import Product, Offer
 
 
-def home(request):
+# def home(request):
+#     offers = Offer.objects.filter(active=True).order_by('-id')[:6]
+#
+#     def stars():
+#         for i in offers:
+#             for x in range(1, i.rating + 1):
+#                 return '<span class="glyphicon glyphicon-star"></span>'
+#
+#     loop_times = range(5)
+#     title = "Welcome"
+#     context = {
+#         'title': title,
+#         'offers': offers,
+#         'loop_times': loop_times,
+#         'stars': stars
+#     }
+#     return render(request, "index.html", context)
+
+
+class Home(View):
+    title = "Welcome"
     offers = Offer.objects.filter(active=True).order_by('-id')[:6]
-    loop_times = range(5)
-    title = "Hola mundo"
-    context = {'title': title, 'offers': offers, 'loop_times': loop_times}
-    return render(request, "index.html", context)
+    template_name = "index.html"
+    context = {
+        'title': title,
+        'offers': offers,
+    }
+
+    def get(self, request):
+        return render(request, self.template_name, context=self.context)
 
 
 def about(request):
-    title = "About DMS"
+    title = "About"
     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do\
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip\
